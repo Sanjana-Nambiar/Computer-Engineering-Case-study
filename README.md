@@ -85,8 +85,7 @@ is to display the whole corrected sorted array of unique words and its frequenci
 
 Works Cited:
 - https://en.wikipedia.org/wiki/Concordance_(publishing)
-- https://www.jstor.org/stable/pdf/24149475.pdf?refreqid=excelsior%3Afa7e0711b7e687d74c02a00a8
-- eafd05f
+- https://www.jstor.org/stable/pdf/24149475.pdf?refreqid=excelsior%3Afa7e0711b7e687d74c02a00a8eafd05f
 - The Use of Concordancing Programs in ELT, https://core.ac.uk/download/pdf/82712036.pdf
 - https://www.geeksforgeeks.org/sorting-algorithms/
 - https://www.techopedia.com/definition/13698/tokenization
@@ -103,14 +102,17 @@ The outputs are:
 ## Step 3: Design of the algorithm and hand-solved problems
 #### Test Case 1:
    NYU Abu Dhabi is a research university with a fully integrated liberal arts and science college.
+   
 This is a simple test to evaluate whether the frequency of the words that is repeated is correct
 and that the capitalized words should be converted to lowercase.
 #### Test Case 2:
   The alarm went off at exactly 6:00 AM,as it had every morning for the past five years!
+  
 This test is mainly conducted to evaluate whether the numerical values and special characters are
 ignored or not, while printing the concordance of the text.
 #### Test Case 3:
   Test, Test! Test' Test. testtt&
+  
 This test is mainly conducted to evaluate whether all the special characters are ignored or not, while
 printing the concordance of the text. This test is also checks the accuracy of the printed frequency of
 repeating words.
@@ -122,5 +124,6 @@ Sample text:
   The river slowly meandered through the open space. It had hidden secrets that it
   didn't want to reveal. It had a well-planned strategy to appear calm, inviting, and
   appealing. That's how the river lured her unknowing victims to her water's edge. 
+  
 This test is to check whether this program works with actually long texts or not. As the program
 is expected to show the correct results for this as well. 
