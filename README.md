@@ -62,7 +62,7 @@ learners to induce the natural order or existence of that word or collocations.
 activities using concordances provided by the teacher, in order to encourage them to work
 out rules of use for themselves.
 
-PROGRAM BUILDING
+## PROGRAM BUILDING
 Building this program involves many different steps, to take into consideration. First we would
 require to tokenize a string into multiple words. Tokenization is the act of breaking up a sequence
 of strings into pieces such as words, keywords, phrases, symbols and other elements called tokens.
@@ -82,6 +82,7 @@ given array or list elements according to a comparison operator on the elements.
 operator is used to decide the new order of element in the respective data structure. The Final step
 is to display the whole corrected sorted array of unique words and its frequencies to the users.
 
+
 Works Cited:
 - https://en.wikipedia.org/wiki/Concordance_(publishing)
 - https://www.jstor.org/stable/pdf/24149475.pdf?refreqid=excelsior%3Afa7e0711b7e687d74c02a00a8
@@ -99,37 +100,9 @@ The outputs are:
 - The concordance text, that includes the unique keywords and its frequency
 - The message that the program has finished processing
 
-The following explains how the program executes:
-********************************************************************************
- THIS PROGRAM IS DESIGNED TO PROCESS A TEXTFILE AND PRODUCE ITS CORRESPONDING
- CONCORDANCE TEXT FILE
- ********************************************************************************
-Please enter the name of the input file that should be processed
-ReadFile.txt
-Please enter the name of the output file in which the concordance text will be saved
-ResultFile.txt
-Unique Words Frequency
-a 2
-alphabetical 1
-an 1
-concordance 1
-file 2
-in 1
-is 1
-list 1
-of 2
-text 2
-the 2
-unique 1
-word 1
- ********************************************************************************
- !!The concordance result file has been created!!
- !!THANK YOU!!
- ********************************************************************************
-
 ## Step 3: Design of the algorithm and hand-solved problems
 #### Test Case 1:
-  NYU Abu Dhabi is a research university with a fully integrated liberal arts and science college.
+   NYU Abu Dhabi is a research university with a fully integrated liberal arts and science college.
 This is a simple test to evaluate whether the frequency of the words that is repeated is correct
 and that the capitalized words should be converted to lowercase.
 #### Test Case 2:
